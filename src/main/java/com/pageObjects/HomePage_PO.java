@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage_PO {
 	public WebDriver driver;
-
+	//web elements for home page.
 	@FindBy (xpath="//h5[text()='Data Structures-Introduction']/..//a[text()='Get Started']")WebElement datastrgetstarted;
     @FindBy (xpath="//div[@class='alert alert-primary']")WebElement errormsg1;
 	@FindBy(xpath="//h5[text()='Array']/..//a[text()='Get Started']")WebElement arraygetstarted;
