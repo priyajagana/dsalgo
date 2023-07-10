@@ -29,5 +29,5 @@ When The user clicks Register button after entering valid username and different
  Given The user opens Register Page
  When The user enters a valid username and password and password confirmation
       | username     | password  | password confirmation |
-      | Aadhya2@yahoo.com | AMMAMMA1 | AMMAMMA1      |
+      | Aadhya3@yahoo.com | AMMAMMA1 | AMMAMMA1      |
  Then The user should be redirected to Homepage and pagetitle is "NumpyNinja"
